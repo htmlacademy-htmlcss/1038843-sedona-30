@@ -18,87 +18,107 @@
   	</header>
   	<main>
   		<h1>Отели городка</h1>
-  		<section>
-  			<img src="https://via.placeholder.com/150x100" alt="Размытая картинка">
-  		</section>
-  	    <section>
-  	    	<h2>Инфраструктура</h2>
-  	    	<form action="/" method="post">
-  	    		<div>
-  	    		    <label for="id-swimming">Бассейн</label>
-  	    		    <input type="checkbox" name="swimming-pool" id="id-swimming" checked>
-  	    		</div>
-  	    		    <label for="id-parking">Парковка</label>
-  	    		    <input type="checkbox" name="parking" id="id-parking">
-  	    		<div>
-  	    			<label for="id-wi-fi">Wi-fi</label>
-  	    		    <input type="checkbox" name="Wi-fi" id="id-wi-fi">
-  	    		</div>
-  	    	</form>
-  	    </section>
-  	    <section>
-  	    	<h2>Тип жилья</h2>
-  	    	<form action="/" method="post">
-  	    		<div>
-  	    		    <label for="id-house">Гостинница</label>
-  	    		    <input type="checkbox" name="house" id="id-house" checked>
-  	    		</div>
-  	    		    <label for="id-motel">Мотель</label>
-  	    		    <input type="checkbox" name="motel" id="id-motel" checked>
-  	    		<div>
-  	    			<label for="id-apartmens">Апартаменты</label>
-  	    		    <input type="checkbox" name="apartments" id="id-apartmens" checked>
-  	    		</div>
-  	    	</form>
-  	    </section>
-  	    <section>
-  	    	<h2>Стоимость в сутки (р):</h2>
-  	    	<form>
-  	    		<input type="text" name="min-number" placeholder="от 0">
-  	    		<input type="text" name="max-number" placeholder="до 3000">
-  	    		<br>
-  	    		<input type="submit" value="показать">
-  	    	</form>
-  	    </section>
-  	    <section>
-  		    <h2>Сортировка</h2>
-  		    <p>Найдено: 3</p>
-  		    <p>Сортировка:</p>
-  		    <ul>
-  		    	<li><button type="button">По цене</button></li>
-  		    	<li><button type="button">По типу</button></li>
-  		    	<li><button type="button">По рейтингу</button></li>
-  		    </ul>
-  	    </section>
-  	    <section>
-  	    	<h2>Список отелей</h2>
-  	    	<ul>
-  	    		<li>
-  	    			<h3>Amara Resort & Spa</h3>
-  	    			<img src="https://via.placeholder.com/150x100" alt="Отель Amara Resort & Spa">
-  	    			<p>Гостинница <span>от 4000р.</span></p>
-  	    			<a href="#">Поподробнее</a>
-  	    			<a href="#">Забронировать</a>
-  	    			<p>Рейтинг:8,5</p>
-  	    		</li>
-  	    		<li>
-  	    			<h3>Desert Quail Inn</h3>
-  	    			<img src="https://via.placeholder.com/150x100" alt="Отель Desert Quail Inn">
-  	    			<p>Мотель <span>от 3000р.</span></p>
-  	    			<a href="#">Поподробнее</a>
-  	    			<a href="#">Забронировать</a>
-  	    			<p>Рейтинг:8,9</p>
-  	    		</li>
-  	    		<li>
-  	    			<h3>Villas at Poco Diablo</h3>
-  	    			<img src="https://via.placeholder.com/150x100" alt="Апартаменты Villas at Poco Diablo">
-  	    			<p>Апартаменты <span>от 2000р.</span></p>
-  	    			<a href="#">Поподробнее</a>
-  	    			<a href="#">Забронировать</a>
-  	    			<p>Рейтинг:9,2</p>
-  	    		</li>
-  	    	</ul>
-  	    </section>
+  	      <section>
+  	    	  <form action="/" method="post">
+            <fieldset>
+              <legend>Инфраструктура</legend>
+  	    		    <div>
+  	    		      <label for="id-swimming">Бассейн</label>
+  	    		      <input type="checkbox" name="swimming-pool" id="id-swimming" checked>
+  	    		    </div>
+  	    		      <label for="id-parking">Парковка</label>
+  	    		      <input type="checkbox" name="parking" id="id-parking">
+  	    		    <div>
+  	    		    	<label for="id-wi-fi">Wi-fi</label>
+  	    		      <input type="checkbox" name="Wi-fi" id="id-wi-fi">
+  	    		    </div>
+            </fieldset>
+          </section>
+          <section>
+            <fieldset>
+  	    	    <legend>Тип жилья</legend>
+  	    		    <div>
+  	    		      <label for="id-house">Гостинница</label>
+  	    		      <input type="checkbox" name="house" id="id-house" checked>
+  	    		    </div>
+  	    		      <label for="id-motel">Мотель</label>
+  	    		      <input type="checkbox" name="motel" id="id-motel" checked>
+  	    		    <div>
+  	    		    	<label for="id-apartmens">Апартаменты</label>
+  	    		      <input type="checkbox" name="apartments" id="id-apartmens" checked>
+  	    		    </div>
+            </fieldset>
+          </section>
+          <section>
+            <fieldset>
+  	    	    <legend>Стоимость в сутки (р):</legend>
+  	    		      <input type="text" name="min-number" placeholder="от 0">
+  	    		      <input type="text" name="max-number" placeholder="до 3000">
+  	    		      <br>
+  	    		      <input type="submit" value="показать">
+            </fieldset>
+  	    	  </form>
+  	      </section>
+  	      <section>
+  		        <h2>Сортировка</h2>
+  		        <h3>Найдено: 3</h3>
+  		        <span>Сортировка:</span>
+  		        <ul>
+  		        	<li><button type="button">По цене</button></li>
+  		        	<li><button type="button">По типу</button></li>
+  		        	<li><button type="button">По рейтингу</button></li>
+  		        </ul>
+            <div>
+              <button type="button"></button>
+              <button type="button"></button>
+            </div>
+  	      </section>
+  	      <section>
+  	    	  <h2>Список отелей</h2>
+            <div>
+              <img src="https://via.placeholder.com/150x100" alt="Отель Amara Resort & Spa">
+              <img src="https://via.placeholder.com/150x100" alt="Отель Desert Quail Inn">
+              <img src="https://via.placeholder.com/150x100" alt="Апартаменты Villas at Poco Diablo">
+            </div>
+  	    	  <ul>
+  	    	  	<li>
+              <div>
+  	    	  		<h3>Amara Resort & Spa</h3>
+  	    	  		<p>Гостинница <span>от 4000р.</span></p>
+  	    	  		<a href="#">Поподробнее</a>
+  	    	  		<a href="#">Забронировать</a>
+              </div>
+              <div>
+                <img src="https://via.placeholder.com/150x100" alt="Звёздочки">
+  	    	  		<p>Рейтинг:8,5</p>
+              </div>  
+  	    	  	</li>
+  	    	  	<li>
+              <div>
+  	    	  		<h3>Desert Quail Inn</h3>
+  	    	  		<p>Мотель <span>от 3000р.</span></p>
+  	    	  		<a href="#">Поподробнее</a>
+  	    	  		<a href="#">Забронировать</a>
+              </div>
+              <div>
+                <img src="https://via.placeholder.com/150x100" alt="Звёздочки">
+  	    	  		<p>Рейтинг:8,9</p>
+              </div>
+  	    	  	</li>
+  	    	  	<li>
+              <div>
+  	    	  		<h3>Villas at Poco Diablo</h3>
+  	    	  		<p>Апартаменты <span>от 2000р.</span></p>
+  	    	  		<a href="#">Поподробнее</a>
+  	    	  		<a href="#">Забронировать</a>
+              </div>
+              <div>
+                <img src="https://via.placeholder.com/150x100" alt="Звёздочки">
+  	    	  		<p>Рейтинг:9,2</p>
+              </div>  
+  	    	  	</li>
+  	    	  </ul>
+  	      </section>
   	</main>
   	<footer>
   		<section>
