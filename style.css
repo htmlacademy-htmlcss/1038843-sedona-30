@@ -1,0 +1,178 @@
+@font-face {
+	font-family: "PT Sans";
+	src: url("../fonts/PTSans-Bold.woff2") format("woff2"),
+	   url("../fonts/PTSans-Bold.woff") format("woff");
+	font-weight: 700;   
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "PT Sans";
+	src: url("../fonts/PTSans.woff2") format("woff2"),
+	    url("../fonts/PTSans.woff") format("woff");
+	font-weight: 400;    
+	font-style: normal;
+}
+
+/*Variables*/
+
+root {
+	--basic-black: #000000;
+	--basic-white: #FFFFFF;
+	--basic: #81B3D3;
+	--basic: #333333;
+	--basic: #EEEEEE;
+	--basic: #766357;
+	--basic: #F2F2F2;
+	--basic: #666666;
+	--basic: #F2F2F2;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "PT Sans";
+	font-size: 21px;
+	font-weight: 700;
+	color: black;
+	text-transform: uppercase;
+	background-color: white;
+}
+
+.site-navigation li {
+	font-size: 14px;
+	line-height: 26px;
+}
+
+.site-navigation a {
+	color: black;
+	font-weight: bold;
+}
+
+.number-features h3 {
+	font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.number-features p {
+	font-size: 14px;
+    line-height: 26px;
+    font-weight: normal;
+}
+
+.first-reason-content h3 {
+	font-size: 21px;
+    line-height: 21px;
+    font-weight: bold;
+}
+
+.first-reason-content span {
+	font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;
+}
+
+.first-reason-content p {
+	font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;
+}
+
+.first-reason-content {
+	background-color: #81B3D2;
+	color: white;
+}
+
+.feature-item h3 {
+	font-size: 21px;
+    line-height: 21px;
+    font-weight: bold;
+}
+
+.feature-item p {
+	font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;
+}
+
+.feature-block h3{
+	font-size: 21px;
+    line-height: 21px;
+    font-weight: bold;
+}
+
+.feature-block span {
+	font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;
+}
+
+.feature-block p {
+	font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;
+}
+
+.feature-block {
+	background-color: #81B3D2;
+	color: white;
+}
+
+.next-list {
+	background-color: #EEEEEE;
+}
+
+.next-item h3 {
+	font-size: 21px;
+    line-height: 21px;
+    font-weight: bold;
+}
+
+.next-item span {
+	font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;
+}
+
+.next-item p {
+	font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;
+}
+
+.invitation h3 {
+	font-size: 30px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.invitation p {
+	font-size: 30px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.appointment h3 {
+	font-size: 21px;
+    line-height: 26px;
+    background-color: #766357;
+    color: white;
+    font-weight: bold;
+}
+
+form label {
+	font-size: 14px;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.footer-contacts p {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+input {
+	background-color: #F2F2F2;
+}

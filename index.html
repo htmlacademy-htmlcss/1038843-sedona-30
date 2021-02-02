@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
@@ -7,12 +7,14 @@
     <link rel="icon" href="favicon/32.ico" type="image/svg+xml">
     <link rel="apple-touch-icon" href="favicon/152.ico">
     <link rel="manifest" href="manifest.webmanifest">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body>
-  	<header>
-  		<nav>
+  <body class="page-body">
+  	<header class="main-header">
+  		<nav class="main-navigation">
   			<!--Здесь логотип-->
-  			<ul>
+  			<ul class="site-navigation">
   				<li><a href="blank.html">Информация</a></li>
   				<li><a href="blank.html">Фото и видео</a></li>
   				<li><a href="blank.html">Карта штата</a></li>
@@ -20,123 +22,123 @@
   			</ul>
   		</nav>
   	</header>
-  	<main>
+  	<main class="container">
   		<h1>Седона</h1>
-  		<section>
-  			<img src="img/welcome-greeting.svg" width="456.65" height="350.68"  alt="Приветствие Седоны">
+  		<section class="block-greeting">
+  			<img src="img/welcome-greeting.svg" width="456" height="350"  alt="Приветствие Седоны">
   		</section>
-  		<section>
+  		<section class="number-features">
   			<h3>Седона - небольшой городок в Аризоне заслуживающий большего</h3>
   			<p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон</p>
   		</section>
-  		<section>
-  		<div>
+  		<section class="first-reason">
+  		<div class="first-reason-content">
   			<h3>Настоящий городок</h3>
-  			<span>№1</span>
+  			<span class="first-number">№1</span>
   			<p>Седона не аттракцион для туристов, там течет своя жизнь</p>
   		</div>
   		<img src="img/nature.png" width="800" height="256" alt="Природа городка">
-  	    </section>
-  		<section>
-  			<ul>
-  				<li>
+  	  </section>
+  		<section class="features">
+  			<ul class="features-list">
+  				<li class="feature-item">
   					<h3>Жильё</h3>
   					<p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
   				</li>
-  				<li>
+  				<li class="feature-item">
   					<h3>Еда</h3>
   					<p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
   				</li>
-  				<li>
+  				<li class="feature-item">
   					<h3>Сувениры</h3>
   					<p>Не только китайского но и местного производства</p>
   				</li>
   			</ul>
   		</section>
-  		<section>
+  		<section class="second-reason">
   		<img src="img/evel-bridge.png" width="800" height="256" alt="Мост дьявола">	
-  		<div>
+  		<div class="feature-block">
   			<h3>Там есть мост дьявола</h3>
-  			<span>№2</span>
+  			<span class="second-number">№2</span>
   			<p>Да, по нему можно пройтись, если конечно вы осмелитесь!</p>
   		</div>
   		</section>
-  		<section>
-  			<ul>
-  				<li>
+  		<section class="next-features">
+  			<ul class="next-list">
+  				<li class="next-item">
   					<h3>Небольшая площадь</h3>
-  					<span>№3</span>
+  					<span class="third-number">№3</span>
   					<p>Все достопримечательности находятся очень близко</p>
   				</li>
-  				<li>
+  				<li class="next-item">
   					<h3>Красивая дорога</h3>
-  					<span>№4</span>
+  					<span class="fourth-number">№4</span>
   					<p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
   				</li>
-  				<li>
-  					<h3>Мало туристов</h3>
+  				<li class="next-item">
+  					<h3 class="fifth-number">Мало туристов</h3>
   					<span>№5</span>
   					<p>Большинство едет в Гранд каньон и толпится там</p>
   				</li>
   			</ul>
   		</section>
-  		<section>
+  		<section class="invitation">
   			<h3>Заинтересовались ?</h3>
   			<p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостинниц в Седоне</p>
   		</section>
-  		<section>
+  		<section class="appointment">
   			<h3>Поиск гостинницы в Седоне</h3>
-  		<form action="/" method="get">
-  			<div>
+  		<form class="appointment-form" action="/" method="get">
+  			<div class="appointment-item">
   			    <label for="id-arrive">Дата заезда:</label> 
-  			    <input type="date" name="name-arrive" id="id-arrive" value="24 апреля 2017">
-  		    </div>
-  			<div>
-  				<label for="id-leaving">Дата выезда:</label>
-  				<input type="date" name="name-leaving" id="id-leaving" value="4июля 2017">
+  			    <input type="date" name="name-arrive" id="id-arrive" value="24-04-2017">
+  		  </div>
+  			<div class="appointment-item">
+  				  <label for="id-leaving">Дата выезда:</label>
+  				  <input type="date" name="name-leaving" id="id-leaving" value="04-07-2017">
   			</div>
-  			<div>
+  			<div class="appointment-item">
   			    <label for="id-adult">Взрослые:</label>
-  			    <input type="button" value="+">
+  			    <input class="button-plus" type="button" value="+">
   			    <input type="text" name="name-adult" id="id-adult" value="2">
-  			    <input type="button" value="-">
+  			    <input class="button-minus" type="button" value="-">
   			</div>
-  			<div>
+  			<div class="appointment-item">
   			    <label for="id-children">Дети:</label>
-  			    <input type="button" value="+">
+  			    <input class="button-plus" type="button" value="+">
   			    <input type="text" name="name-children" id="id-children" value="0">
-  			    <input type="button" value="-">
+  			    <input class="button-minus" type="button" value="-">
   			</div>
   		</form>
   		</section>
-  		<section>
+  		<section class="map">
   			<h3>Где мы находимся ?</h3>
   			<img src="map" width="1199" height="594" alt="Карта">
   			<!--Здесь карта-->
   		</section>
   	</main>
-  	<footer>
-  		<section>
+  	<footer class="main-footer">
+  		<section class="footer-contacts">
   			<h3>Контактная информация</h3>
-  			<p>#VISITSEDONA<br> <a href="tel:7(495)666-01-66">ТЕЛ:+7(495)666-01-66</a></p>
+  			<p>#VISITSEDONA<br> <a class="footer-phone" href="tel:7(495)666-01-66">ТЕЛ:+7(495)666-01-66</a></p>
   		</section>
-  		<section>
+  		<section class="footer-social">
   			<h3>Давайте дружить!</h3>
   			<ul>
   				<li>
-  					<a href="#">Твиттер</a>
+  					<a class="soacial-button" href="#">Твиттер</a>
   				</li>
   				<li>
-  					<a href="#">Фейсбук</a>
+  					<a class="soacial-button" href="#">Фейсбук</a>
   				</li>
   				<li>
-  					<a href="#">Ютуб</a>
+  					<a class="soacial-button" href="#">Ютуб</a>
   				</li>
   			</ul>
   		</section>
   		<section>
   			<h3>Разработано</h3>
-  			<a href="https://htmlacademy.ru"><!--Здесь логотип--></a>
+  			<a class="button" href="https://htmlacademy.ru"><!--Здесь логотип--></a>
   		</section>
   	</footer>
   </body>
