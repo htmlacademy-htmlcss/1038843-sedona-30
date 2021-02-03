@@ -8,8 +8,8 @@
 
 @font-face {
 	font-family: "PT Sans";
-	src: url("fonts/PTSans.woff2") format("woff2"),
-	    url("fonts/PTSans.woff") format("woff");
+	src: url("../fonts/PTSans.woff2") format("woff2"),
+	    url("../fonts/PTSans.woff") format("woff");
 	font-weight: 400;    
 	font-style: normal;
 }
@@ -19,13 +19,13 @@
 :root {
 	--basic-black: #000000;
 	--basic-white: #FFFFFF;
-	--basic-light-blue: #81B3D3;
-	--basic-grey: #333333;
-	--basic-light-white: #EEEEEE;
-	--basic-light-brown: #766357;
-	--basic-grey-white: #F2F2F2;
-	--basic-dark-grey: #666666;
-	--basic-light-grey: #F2F2F2;
+	--basic: #81B3D3;
+	--basic: #333333;
+	--basic: #EEEEEE;
+	--basic: #766357;
+	--basic: #F2F2F2;
+	--basic: #666666;
+	--basic: #F2F2F2;
 }
 
 body {
@@ -37,15 +37,6 @@ body {
 	color: black;
 	text-transform: uppercase;
 	background-color: white;
-}
-
-a {
-	text-decoration: none;
-	color: black;
-}
-
-.block-greeting {
-	background-image: #FFFFFF;
 }
 
 .site-navigation li {
@@ -170,16 +161,7 @@ a {
     font-weight: bold;
 }
 
-.appointment h3:hover {
-	background-color: #604E43;
-}
-
-.appointment h3:active {
-	background-color: #503E33;
-	opacity: 0.3;
-}
-
-.appointment-form label {
+form label {
 	font-size: 14px;
     line-height: 26px;
     font-weight: bold;
@@ -191,38 +173,6 @@ a {
     font-weight: bold;
 }
 
-.input-appointment,
-.button-minus,
-.button-plus {
+input {
 	background-color: #F2F2F2;
-}
-
-.input-appointment:hover {
-	background-color: #EBEBEB;
-}
-
-.input-appointment:focus {
-	background-color: #FFFFFF;
-}
-
-.button-plus,
-.button-minus {
-	color: #A9A9A9;
-}
-
-
-.button-minus:hover {
-	color: #000000;
-}
-
-.button-plus:hover {
-	color: #000000;
-}
-
-.button-minus:active {
-	color: #81B3D2;
-}
-
-.button-plus:active {
-	color: #81B3D2;
 }
