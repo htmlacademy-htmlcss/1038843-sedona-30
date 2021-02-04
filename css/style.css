@@ -8,35 +8,44 @@
 
 @font-face {
 	font-family: "PT Sans";
-	src: url("../fonts/PTSans.woff2") format("woff2"),
-	    url("../fonts/PTSans.woff") format("woff");
+	src: url("fonts/PTSans.woff2") format("woff2"),
+	    url("fonts/PTSans.woff") format("woff");
 	font-weight: 400;    
 	font-style: normal;
 }
 
 /*Variables*/
 
-:root {
+root {
 	--basic-black: #000000;
 	--basic-white: #FFFFFF;
-	--basic: #81B3D3;
-	--basic: #333333;
-	--basic: #EEEEEE;
-	--basic: #766357;
-	--basic: #F2F2F2;
-	--basic: #666666;
-	--basic: #F2F2F2;
+	--basic-light-blue: #81B3D3;
+	--basic-grey: #333333;
+	--basic-light-grey: #EEEEEE;
+	--basic-brown: #766357;
+	--basic-white-grey: #F2F2F2;
+	--basic-dark-grey: #666666;
+	--basic-light-white: #F2F2F2;
 }
 
 body {
 	margin: 0;
 	padding: 0;
-	font-family: "PT Sans";
+	font-family: "PT Sans" "Roboto" "Sans-serif";
 	font-size: 21px;
 	font-weight: 700;
 	color: black;
 	text-transform: uppercase;
 	background-color: white;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.block-greeting {
+	background-color: #FFFFFF;
 }
 
 .site-navigation li {
@@ -55,7 +64,7 @@ body {
     font-weight: bold;
 }
 
-.number-features p {
+.about-sedona p {
 	font-size: 14px;
     line-height: 26px;
     font-weight: normal;
@@ -161,7 +170,15 @@ body {
     font-weight: bold;
 }
 
-form label {
+.hotel-search:hover {
+	background-color: #604E43;
+}
+
+.hotel-search:active {
+	background-color: #503E33;
+}
+
+form .label-appointment {
 	font-size: 14px;
     line-height: 26px;
     font-weight: bold;
@@ -173,6 +190,38 @@ form label {
     font-weight: bold;
 }
 
-input {
+.input-appointment,
+.button-minus,
+.button-plus {
 	background-color: #F2F2F2;
+	border: none;
+}
+
+.input-appointment:hover {
+	background-color: #EBEBEB;
+}
+
+.input-appointment:focus {
+	background-color: #FFFFFF;
+}
+
+.button-plus,
+.button-minus {
+	color: #A9A9A9;
+}
+
+.button-plus:hover {
+	color: #000000;
+}
+
+.button-minus:hover {
+	color: #000000;
+}
+
+.button-plus:active {
+	color: #81B3D2;
+}
+
+.button-minus:active {
+	color: #81B3D2;
 }
