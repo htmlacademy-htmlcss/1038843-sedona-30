@@ -1,15 +1,17 @@
 @font-face {
 	font-family: "PT Sans";
-	src: url("fonts/PTSans-Bold.woff2") format("woff2");
-	src: url("fonts/PTSans-Bold.woff") format("woff");
+	src: local("PT Sans"),
+	     url("../fonts/PTSans-Bold.woff2") format("woff2"),
+	     url("../fonts/PTSans-Bold.woff") format("woff");
 	font-weight: 700;   
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "PT Sans";
-	src: url("fonts/PTSans.woff2") format("woff2");
-	src: url("fonts/PTSans.woff") format("woff");
+	src: local("PT Sans"),
+	     url("../fonts/PTSans.woff2") format("woff2"),
+	     url("../fonts/PTSans.woff") format("woff");
 	font-weight: 400;    
 	font-style: normal;
 }
@@ -31,7 +33,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: "PT Sans" "PT Mono" "PT Serif";
+	font-family: "PT Sans", "Arial", "sans-serif";
 	font-size: 21px;
 	font-weight: 700;
 	color: black;
