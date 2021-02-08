@@ -228,3 +228,182 @@ form .label-appointment {
 .button-minus:active {
 	color: #81B3D2;
 }
+
+
+/*Catalog*/
+
+.link-motel {
+	color: #766357;
+}
+
+.form-choice,
+.min-cost,
+.max-cost,
+.submit-cost {
+	color: #FFFFFF;
+	background-color: #5F9EA0;
+}
+
+.fieldset-comfort-type,
+.fieldset-cost {
+	border: none;
+}
+
+.legend-infrastructure-type,
+.legend-comfort-type,
+.legend-cost {
+	font-size: 16px;
+    line-height: 21px;
+}
+
+.label-choice,
+.min-cost,
+.max-cost,
+.submit-cost {
+	font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.min-cost,
+.max-cost,
+.submit-cost {
+	border: 2px solid #FFFFFF;
+}
+
+.submit-cost:hover {
+	background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    color: #000000;
+}
+
+.found-hotels {
+	font-size: 21px;
+    line-height: 26px;
+}
+
+.input-choice {
+	background-color: #FFFFFF;
+}
+
+.input-choice:active {
+	background-color: #6A6A6A;
+}
+
+.sorting {
+	font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.button-by-price,
+.button-by-type,
+.button-by-rating {
+	font-size: 12px;
+    line-height: 18px;
+    border: none;
+    text-transform: uppercase;
+    background: #FFFFFF;
+}
+
+.button-by-type:hover {
+	color: #81B3D2;
+	opacity: 1.0;
+}
+
+.button-by-type:active {
+	color: #000000;
+	opacity: 1.0;
+}
+
+.button-by-rating:hover {
+	color: #81B3D2;
+	opacity: 1.0;
+}
+
+.button-by-rating:active {
+	color: #000000;
+	opacity: 1.0;
+}
+
+.button-by-type,
+.button-by-rating {
+	opacity: 0.3;
+}
+
+.button-by-price {
+	color: #81B3D2;
+}
+
+.item-by-price,
+.item-by-type,
+.item-by-rating,
+.item-content-hotels {
+	list-style: none;
+}
+
+.item-by-type,
+.item-by-rating {
+	border-bottom: 1px dashed #81B3D2;
+}
+
+.title-motel {
+	font-size: 21px;
+    line-height: 26px;
+}
+
+.title-motel:hover {
+	color: #81B3D2;
+}
+
+.title-motel:active {
+	color: #000000;
+	opacity: 0.3;
+}
+
+.paragraph-house {
+	font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+    font-weight: 400;
+}
+
+.link-detailed {
+	background: #81B3D2;
+	color: #FFFFFF;
+	font-size: 14px;
+    line-height: 21px;
+}
+
+.link-detailed:hover {
+	background: #669EC0;
+}
+
+.link-detailed:active {
+	background: #5496BD;
+	opacity: 0.3;
+}
+
+.link-to-book {
+	background: #766357;
+	color: #FFFFFF;
+	font-size: 14px;
+    line-height: 21px;
+}
+
+.link-to-book:hover {
+	background: #604E43;
+}
+
+.link-to-book:active {
+	background: #503E33;
+	opacity: 0.3;
+}
+
+.rating-motel {
+	color: #666666;
+	font-size: 14px;
+    line-height: 21px;
+    background: #F2F2F2;
+    font-weight: 400;
+}
