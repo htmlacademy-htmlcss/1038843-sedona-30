@@ -407,3 +407,35 @@ form .label-appointment {
     background: #F2F2F2;
     font-weight: 400;
 }
+
+
+/*Grid*/
+
+
+.first-reason {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 256px;
+}
+
+.features-list {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.second-reason {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: 256px;
+}
+
+.next-list {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 256px;
+}
+
+.main-footer {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
