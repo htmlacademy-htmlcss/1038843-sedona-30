@@ -50,6 +50,10 @@ a {
 	background-color: #40E0D0;
 }
 
+.site-navigation {
+	list-style: none;
+}
+
 .site-navigation li {
 	font-size: 14px;
 	line-height: 26px;
@@ -191,6 +195,10 @@ form .label-appointment {
     font-size: 21px;
     line-height: 26px;
     font-weight: bold;
+}
+
+.social-networks {
+	list-style: none;
 }
 
 .input-appointment,
@@ -412,30 +420,42 @@ form .label-appointment {
 /*Grid*/
 
 
-.first-reason {
+
+
+.container {
 	display: grid;
-	grid-template-columns: 1fr 2fr;
-	grid-template-rows: 256px;
+	grid-template-columns: 100%;
+	justify-content: center;
 }
 
-.features-list {
+.main-header {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: auto;
+    margin: 0px;
 }
 
-.second-reason {
+.site-navigation {
 	display: grid;
-	grid-template-columns: 2fr 1fr;
-	grid-template-rows: 256px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	justify-content: center;
+	margin: 0px;
 }
 
-.next-list {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 256px;
+.item-navigation {
+	text-align: center;
 }
 
 .main-footer {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.social-networks {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: center;
+}
+
+.logo-sedona {
+	text-align: center;
 }
