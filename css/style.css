@@ -437,12 +437,6 @@ form .label-appointment {
     width: 1200px;
 }
 
-.logo-sedona {
-	display: grid;
-	grid-template-columns: 1fr;
-	margin: 0 auto;
-}
-
 .site-navigation {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
