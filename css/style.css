@@ -417,7 +417,7 @@ form .label-appointment {
 }
 
 
-/*Grid*/
+/*Grid Index*/
 
 
 
@@ -484,4 +484,39 @@ form .label-appointment {
 	display: grid;
 	grid-template-columns: 1fr;
 	margin: 0 auto;
+}
+
+
+/*Grid Catalog*/
+
+
+.form-choice {
+	display: grid;
+	grid-template-columns: 1fr 1fr 3fr;
+	grid-template-rows: 217px;
+}
+
+.filter-block {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 86px;
+	outline: 2px solid #00FF00;
+}
+
+.hotels-sedona-block {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+}
+
+.list-hotels {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	outline: 2px solid #00FF00;
+}
+
+.item-content-hotels {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
 }
