@@ -64,6 +64,10 @@ a {
 	font-weight: bold;
 }
 
+.sedona-hidden {
+	display: none;
+}
+
 .number-features h3 {
 	font-size: 21px;
     line-height: 26px;
@@ -235,6 +239,13 @@ form .label-appointment {
 
 .button-minus:active {
 	color: #81B3D2;
+}
+
+.location-hidden,
+.contact-information-hidden,
+.be-friends-hidden,
+.developed-hidden {
+	display: none;
 }
 
 
@@ -519,4 +530,68 @@ form .label-appointment {
 .item-content-hotels {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+/*Flex index*/
+
+
+.logo-block {
+	display: flex;
+	justify-content: center;
+}
+
+.block-greeting {
+	display: flex;
+	justify-content: center;
+}
+
+.about-sedona {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+.first-reason {
+	display: flex;
+	margin: auto;
+}
+
+.first-reason-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.features-list {
+	display: flex;
+}
+
+.second-reason {
+	display: flex;
+}
+
+.feature-block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.next-list {
+	display: flex;
+	margin-top: 0px;
+	height: 256px;
+}
+
+.invitation {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.appointment {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
