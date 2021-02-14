@@ -446,25 +446,6 @@ form .label-appointment {
 	width: 1200px;
 }
 
-.main-header {
-	display: grid;
-    grid-template-columns: auto;
-    margin: 0 auto;
-    width: 1200px;
-}
-
-.site-navigation {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	margin: 0 auto;
-}
-
-.item-navigation {
-	display: grid;
-	grid-template-columns: 1fr;
-	margin: 0 auto;
-}
-
 .main-footer {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -541,9 +522,16 @@ form .label-appointment {
 
 /*Flex index*/
 
-.logo-link {
+
+.main-navigation {
 	display: flex;
 	justify-content: center;
+	width: 100%;
+}
+
+.site-navigation {
+	display: flex;
+	flex-direction: column;
 }
 
 .block-greeting {
