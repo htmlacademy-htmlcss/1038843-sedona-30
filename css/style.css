@@ -172,9 +172,9 @@ a {
 }
 
 .invitation p {
-	font-size: 30px;
+	font-size: 14px;
     line-height: 24px;
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .appointment h3 {
@@ -557,8 +557,7 @@ form .label-appointment {
 	align-items: center;
 }
 
-.first-reason,
-.second-reason {
+.first-reason {
 	display: flex;
 	margin: auto;
 }
