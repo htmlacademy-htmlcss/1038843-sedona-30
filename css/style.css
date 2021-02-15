@@ -523,15 +523,24 @@ form .label-appointment {
 /*Flex index*/
 
 
+
+
+
 .main-navigation {
 	display: flex;
-	justify-content: center;
-	width: 100%;
+	flex-direction: column;
+	align-items: center;
+	width: 1200px;
+	margin: auto;
+	
 }
 
 .site-navigation {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 0;
+	width: 100%;
 }
 
 .block-greeting {
@@ -548,12 +557,6 @@ form .label-appointment {
 .first-reason {
 	display: flex;
 	margin: auto;
-}
-
-.first-reason-content {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 }
 
 .features-list {
