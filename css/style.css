@@ -80,29 +80,6 @@ a {
     font-weight: normal;
 }
 
-.first-reason-content h3 {
-	font-size: 21px;
-    line-height: 21px;
-    font-weight: bold;
-}
-
-.first-reason-content span {
-	font-size: 14px;
-    line-height: 21px;
-    font-weight: normal;
-}
-
-.first-reason-content p {
-	font-size: 14px;
-    line-height: 21px;
-    font-weight: normal;
-}
-
-.first-reason-content {
-	background-color: #81B3D2;
-	color: white;
-}
-
 .features-list,
 .next-list {
 	list-style: none;
@@ -255,6 +232,8 @@ form .label-appointment {
 
 
 /*Catalog*/
+
+
 
 .link-navigation-active {
 	color: #766357;
@@ -432,6 +411,12 @@ form .label-appointment {
     font-weight: 400;
 }
 
+.hotels-sedona-hidden,
+.sorting-hidden,
+.hotels-hidden {
+	display: none;
+}
+
 
 /*Grid Index*/
 
@@ -554,7 +539,7 @@ form .label-appointment {
 	align-items: center;
 }
 
-.first-reason {
+.reasons-media {
 	display: flex;
 	margin: auto;
 }
@@ -598,4 +583,60 @@ form .label-appointment {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+
+
+/*Flex Catalog*/
+
+
+.fieldset-comfort-type {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+.fieldset-cost {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.found-hotels {
+	display: flex;
+	margin: auto;
+}
+
+.sorting {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.sorting-list {
+	display: flex;
+	flex-direction: row;
+	margin-right: auto;
+}
+
+.buttons-offset {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.description-hotels {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.overall-rating {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: space-around;
 }
