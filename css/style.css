@@ -482,7 +482,7 @@ form .label-appointment {
 
 .filter-block {
 	display: grid;
-	grid-template-columns: 208px 1fr 200px;
+	grid-template-columns: 208px 100px 1fr 200px;
 	grid-template-rows: 86px;
 	outline: 2px solid #00FF00;
 }
@@ -491,13 +491,15 @@ form .label-appointment {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr;
+	padding: 0;
 }
 
 .list-hotels {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-rows: 150px 150px 150px;
 	outline: 2px solid #00FF00;
+	margin: 0;
 }
 
 .item-content-hotels {
@@ -642,15 +644,26 @@ form .label-appointment {
 	justify-content: center;
 }
 
+.picture-motel {
+	margin: auto;
+	margin-right: 0;
+}
+
 .description-hotels {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: center;
+	margin-left: 29px;
+	outline: 2px solid #00FF00;
 }
 
-.picture-motel {
-	margin: auto;
+.paragraph-house {
+	margin-bottom: 30px;
+}
+
+.block-button {
+	margin-bottom: 10px;
 }
 
 .span-min-cost {
@@ -662,4 +675,11 @@ form .label-appointment {
 	flex-direction: column;
 	align-items: flex-end;
 	justify-content: space-around;
+	margin-right: 72px;
+	outline: 2px solid #00FF00;
+}
+
+.picture-stars {
+	outline: 2px solid #00FF00;
+	padding-right: 0;
 }
