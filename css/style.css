@@ -64,10 +64,6 @@ a {
 	font-weight: bold;
 }
 
-.sedona-hidden {
-	display: none;
-}
-
 .number-features h3 {
 	font-size: 21px;
     line-height: 26px;
@@ -78,29 +74,6 @@ a {
 	font-size: 14px;
     line-height: 26px;
     font-weight: normal;
-}
-
-.first-reason-content h3 {
-	font-size: 21px;
-    line-height: 21px;
-    font-weight: bold;
-}
-
-.first-reason-content span {
-	font-size: 14px;
-    line-height: 21px;
-    font-weight: normal;
-}
-
-.first-reason-content p {
-	font-size: 14px;
-    line-height: 21px;
-    font-weight: normal;
-}
-
-.first-reason-content {
-	background-color: #81B3D2;
-	color: white;
 }
 
 .features-list,
@@ -246,15 +219,10 @@ form .label-appointment {
 	color: #81B3D2;
 }
 
-.location-hidden,
-.contact-information-hidden,
-.be-friends-hidden,
-.developed-hidden {
-	display: none;
-}
-
 
 /*Catalog*/
+
+
 
 .link-navigation-active {
 	color: #766357;
@@ -266,6 +234,10 @@ form .label-appointment {
 .submit-cost {
 	color: #FFFFFF;
 	background-color: #5F9EA0;
+}
+
+.form-choice {
+	background: url("../img/background.png") no-repeat;
 }
 
 .fieldset-comfort-type,
@@ -397,6 +369,7 @@ form .label-appointment {
 	color: #FFFFFF;
 	font-size: 14px;
     line-height: 21px;
+    padding: 3px 17px;
 }
 
 .link-detailed:hover {
@@ -413,6 +386,7 @@ form .label-appointment {
 	color: #FFFFFF;
 	font-size: 14px;
     line-height: 21px;
+    padding: 3px 17px;
 }
 
 .link-to-book:hover {
@@ -430,6 +404,10 @@ form .label-appointment {
     line-height: 21px;
     background: #F2F2F2;
     font-weight: 400;
+}
+
+.hidden {
+	display: none;
 }
 
 
@@ -489,33 +467,35 @@ form .label-appointment {
 
 .form-choice {
 	display: grid;
-	grid-template-columns: 1fr 1fr 3fr;
+	grid-template-columns: 1fr 1fr 2fr;
 	grid-template-rows: 217px;
 }
 
 .filter-block {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 208px 100px 1fr 600px;
 	grid-template-rows: 86px;
-	outline: 2px solid #00FF00;
 }
 
 .hotels-sedona-block {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 1fr;
+	padding: 0;
 }
 
 .list-hotels {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 1fr 1fr 1fr;
-	outline: 2px solid #00FF00;
+	/*outline: 2px solid #00FF00;*/
+	margin: 0;
+	padding: 0;
 }
 
 .item-content-hotels {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 208px 1fr 1fr;
+	padding: 0;
+	/*outline: 2px solid #00FF00;*/
 }
 
 
@@ -554,7 +534,7 @@ form .label-appointment {
 	align-items: center;
 }
 
-.first-reason {
+.reasons-media {
 	display: flex;
 	margin: auto;
 }
@@ -598,4 +578,105 @@ form .label-appointment {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+
+
+/*Flex Catalog*/
+
+
+.fieldset-comfort-type {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+.block-choice {
+	margin-top: 15px;
+}
+
+.fieldset-cost {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: 73px;
+	padding: 0;
+}
+
+.legend-cost {
+	padding-top: 30px;
+
+}
+
+.found-hotels {
+	display: flex;
+	margin: auto;
+	margin-left: 73px;
+}
+
+.sorting {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	margin-left: 25px;
+}
+
+.sorting-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 0;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+.buttons-offset {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	padding-right: 73px;
+}
+
+.picture-motel {
+	margin: auto;
+	margin-right: 0;
+}
+
+.description-hotels {
+}
+
+.title-motel {
+	margin-top: 20px;
+	margin-left: 25px;
+}
+
+.paragraph-house {
+	margin-bottom: 30px;
+	margin-left: 25px;
+}
+
+.block-button {
+	margin-bottom: 20px;
+	margin-left: 25px;
+}
+
+.span-min-cost {
+	margin-left: 40px;
+}
+
+.overall-rating {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: space-around;
+	margin-right: 72px;
+	/*outline: 2px solid #00FF00;*/
+}
+
+.picture-stars {
+	padding-right: 0;
 }
