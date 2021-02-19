@@ -64,10 +64,6 @@ a {
 	font-weight: bold;
 }
 
-.sedona-hidden {
-	display: none;
-}
-
 .number-features h3 {
 	font-size: 21px;
     line-height: 26px;
@@ -223,13 +219,6 @@ form .label-appointment {
 	color: #81B3D2;
 }
 
-.location-hidden,
-.contact-information-hidden,
-.be-friends-hidden,
-.developed-hidden {
-	display: none;
-}
-
 
 /*Catalog*/
 
@@ -245,6 +234,10 @@ form .label-appointment {
 .submit-cost {
 	color: #FFFFFF;
 	background-color: #5F9EA0;
+}
+
+.form-choice {
+	background: url("../img/background.png") no-repeat;
 }
 
 .fieldset-comfort-type,
@@ -413,9 +406,7 @@ form .label-appointment {
     font-weight: 400;
 }
 
-.hotels-sedona-hidden,
-.sorting-hidden,
-.hotels-hidden {
+.hidden {
 	display: none;
 }
 
@@ -482,30 +473,29 @@ form .label-appointment {
 
 .filter-block {
 	display: grid;
-	grid-template-columns: 208px 100px 1fr 200px;
+	grid-template-columns: 208px 100px 1fr 600px;
 	grid-template-rows: 86px;
-	outline: 2px solid #00FF00;
 }
 
 .hotels-sedona-block {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 1fr;
 	padding: 0;
 }
 
 .list-hotels {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 150px 150px 150px;
-	outline: 2px solid #00FF00;
+	/*outline: 2px solid #00FF00;*/
 	margin: 0;
+	padding: 0;
 }
 
 .item-content-hotels {
 	display: grid;
 	grid-template-columns: 208px 1fr 1fr;
 	padding: 0;
+	/*outline: 2px solid #00FF00;*/
 }
 
 
@@ -611,7 +601,8 @@ form .label-appointment {
 	align-items: flex-end;
 	justify-content: center;
 	margin-left: auto;
-	margin-right: 40px;
+	margin-right: 73px;
+	padding: 0;
 }
 
 .legend-cost {
@@ -622,6 +613,7 @@ form .label-appointment {
 .found-hotels {
 	display: flex;
 	margin: auto;
+	margin-left: 73px;
 }
 
 .sorting {
@@ -629,19 +621,24 @@ form .label-appointment {
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
+	margin-left: 25px;
 }
 
 .sorting-list {
 	display: flex;
 	flex-direction: row;
-	margin-right: 100px;
+	justify-content: space-around;
+	padding: 0;
+	margin-left: 50px;
+	margin-top: 30px;
 }
 
 .buttons-offset {
 	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
-	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	padding-right: 73px;
 }
 
 .picture-motel {
@@ -650,20 +647,21 @@ form .label-appointment {
 }
 
 .description-hotels {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: center;
-	margin-left: 29px;
-	outline: 2px solid #00FF00;
+}
+
+.title-motel {
+	margin-top: 20px;
+	margin-left: 25px;
 }
 
 .paragraph-house {
 	margin-bottom: 30px;
+	margin-left: 25px;
 }
 
 .block-button {
-	margin-bottom: 10px;
+	margin-bottom: 20px;
+	margin-left: 25px;
 }
 
 .span-min-cost {
@@ -676,10 +674,9 @@ form .label-appointment {
 	align-items: flex-end;
 	justify-content: space-around;
 	margin-right: 72px;
-	outline: 2px solid #00FF00;
+	/*outline: 2px solid #00FF00;*/
 }
 
 .picture-stars {
-	outline: 2px solid #00FF00;
 	padding-right: 0;
 }
